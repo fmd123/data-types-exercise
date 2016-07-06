@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		/*
+		* Exercise Two
+		* Why does the following output true?
+		*/
+
+		// a is truthy because it is a string even though that string is the word false. b is true because it is a boolean. So when both a and b have to be truthy then console log is true. 
+		// bonus question (per Erty) the last value is the value of a which is the string "false" When looking at the statement b && a the code will short circuit at the first falsy value. In this case there are no values that are falsy so it will just log the last value which happens to be "false."
+		var a = "false";
+		var b = true;
+
+		// "&&" is "and"
+		console.log (a && b);
+
+		/*
+		* Bonus Question: Why does (b && a) log "false"?
+		*/
+
+	</script>
+</body>
+</html>
